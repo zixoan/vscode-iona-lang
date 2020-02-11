@@ -1,0 +1,43 @@
+{
+    "name": "iona-lang",
+    "displayName": "Iona Lang",
+    "description": "Syntax highlighting and snippets for the iona programming language",
+    "version": "0.0.1",
+    "publisher": "zixoan",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "iona",
+                "aliases": [
+                    "Iona",
+                    "iona"
+                ],
+                "extensions": [
+                    ".ion",
+                    ".iona"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "iona",
+                "scopeName": "source.iona",
+                "path": "./syntaxes/iona.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+              "language": "iona",
+              "path": "./snippets.json"
+            }
+          ]
+    }
+}

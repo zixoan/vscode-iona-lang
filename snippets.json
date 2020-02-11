@@ -1,0 +1,49 @@
+{
+    "Main function": {
+		"prefix": ["main"],
+		"body": [
+            "func Main()",
+            "{",
+            "\t$1",
+            "}"
+		],
+		"description": "Main function"
+    },
+    "Write line to console": {
+		"prefix": ["print", "write"],
+		"body": [
+			"WriteLine($1)"
+		],
+		"description": "Write output to console"
+    },
+    "Write string line to console": {
+		"prefix": ["prints", "writes"],
+		"body": [
+			"WriteLine(\"$1\")"
+		],
+		"description": "Write string output to console"
+    },
+    "Read line from console": {
+		"prefix": "read",
+		"body": [
+			"ReadLine()"
+		],
+		"description": "Read line from console"
+    },
+    "Read line from console into variable": {
+		"prefix": "readv",
+		"body": [
+            "var $1 = ReadLine()",
+            "$2"
+		],
+		"description": "Read line from console into variable"
+    },
+    "For each element loop": {
+		"prefix": "for",
+		"body": [
+            "for $1 in $2",
+            "\t$3"
+		],
+		"description": "For each element loop"
+	}
+}
