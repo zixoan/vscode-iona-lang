@@ -37,7 +37,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.iona",
-				"match": "\\b(func|if|else|while|do|for|return|var|in)\\b"
+				"match": "\\b(func|if|else|while|do|for|return|var|in|step)\\b"
 			}]
 		},
 		"strings": {
