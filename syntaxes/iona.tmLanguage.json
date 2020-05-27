@@ -92,7 +92,7 @@
 			"patterns": [
 				{
 					"name": "constant.language.iona",
-					"match": "\\b(true|false|PI|INT_MIN|INT_MAX|FLOAT_MIN|FLOAT_MAX)\\b"
+					"match": "\\b(true|false|PI|INT_MIN|INT_MAX|FLOAT_MIN|FLOAT_MAX|ARGS)\\b"
 				},
 				{
 					"name": "constant.numeric.iona",
