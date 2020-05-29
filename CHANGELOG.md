@@ -2,6 +2,13 @@
 
 All notable changes to the "iona-lang" extension will be documented in this file.
 
+## [0.1.1] - 2020-05-29
+
+### Added
+
+- Highlighting for 'step' keyword
+- Highlighting for 'ARGS' constant
+
 ## [0.0.1] - 2020-02-11
 
 ### Added
