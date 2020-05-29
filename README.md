@@ -34,6 +34,10 @@ Check the [issues](https://github.com/zixoan/vscode-iona-lang/issues) tab to see
 
 ## Release Notes
 
+### 0.1.1
+
+Add 'ARGS' as a constant and 'step' as a keyword
+
 ### 0.0.1
 
 Initial release of iona-lang

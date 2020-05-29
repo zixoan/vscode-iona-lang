@@ -2,7 +2,7 @@
     "name": "iona-lang",
     "displayName": "Iona Lang",
     "description": "Syntax highlighting and snippets for the iona programming language",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "publisher": "zixoan",
     "engines": {
         "vscode": "^1.38.0"
